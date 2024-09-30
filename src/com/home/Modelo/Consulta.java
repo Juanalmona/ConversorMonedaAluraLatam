@@ -1,4 +1,4 @@
-package com.home.modelo;
+package com.home.Modelo;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import java.net.URI;

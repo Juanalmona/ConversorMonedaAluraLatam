@@ -1,4 +1,4 @@
-package com.home.vista;
+package com.home.Vista;
 public class Menu {
     private final String VERDE = "\033[0;32m"; // Texto verde
     private final String ROJO = "\033[0;31m"; // Texto rojo

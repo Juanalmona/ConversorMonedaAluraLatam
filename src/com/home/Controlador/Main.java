@@ -1,6 +1,6 @@
 package com.home.Controlador;
-import com.home.modelo.*;
-import com.home.vista.Menu;
+import com.home.Modelo.*;
+import com.home.Vista.Menu;
 import java.io.IOException;
 import java.util.Scanner;
 public class Main {

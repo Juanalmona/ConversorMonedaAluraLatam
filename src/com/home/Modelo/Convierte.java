@@ -1,5 +1,5 @@
-package com.home.modelo;
-import com.home.vista.Menu;
+package com.home.Modelo;
+import com.home.Vista.Menu;
 import java.util.Scanner;
 public class Convierte {
     Menu menu = new Menu();
