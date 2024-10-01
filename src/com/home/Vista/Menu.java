@@ -19,6 +19,6 @@ public class Menu {
         System.out.println(VERDE + "¿Que Opcion Desea Elegir?" + RESET);
     }
     public void mensajeCantidad(){
-        System.out.println(VERDE + "¿Cuanta Cantidad Desea que Realice la conversion?" + RESET);
+        System.out.println(VERDE + "Ingrese el valor que desea convertir" + RESET);
     }
 }
