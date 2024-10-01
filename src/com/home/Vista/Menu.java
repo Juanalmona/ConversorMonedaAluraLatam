@@ -6,7 +6,7 @@ public class Menu {
     private final String SUBRAYADO = "\033[4m";  // Subrayado
     public void Mensaje(){
         System.out.println("########################################################################################################");
-        System.out.println(VERDE + SUBRAYADO + "Bienvenido(a) al conversor de monedas" + RESET);
+        System.out.println(VERDE + SUBRAYADO + "Bienvenido(a) al conversor de monedas =)" + RESET);
         System.out.println("""                   
                 1) Conversor de Dolar ==> Peso Argentino.
                 2) Conversor de Peso Argentino ==> Dolar.
@@ -19,6 +19,6 @@ public class Menu {
         System.out.println(VERDE + "¿Que Opcion Desea Elegir?" + RESET);
     }
     public void mensajeCantidad(){
-        System.out.println(VERDE + "¿Cuanta Cantidad Desea que Realice la conversion?" + RESET);
+        System.out.println(VERDE + "Ingrese el valor que desea convertir" + RESET);
     }
 }
