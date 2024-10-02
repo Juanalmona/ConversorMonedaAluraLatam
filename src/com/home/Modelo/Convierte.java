@@ -27,7 +27,7 @@ public class Convierte {
             case 6:
                 return convertir("COP","USD" );
             case 7:
-                System.out.println("PROGRAMA FINALIZADO, LO ESPERAMOS PRONTO...");
+                System.out.println("PROGRAMA FINALIZADO, GRACIAS POR UTILIZAR NUESTRO SERVICIO...");
                 return 7;
             default:
                 System.out.println(ROJO + "OPCION NO VALIDA. POR FAVOR, INGRESE UN NUMERO ENTRE  1 Y 7." + RESET);
