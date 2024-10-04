@@ -41,6 +41,25 @@
   <li><strong>Salir:</strong> Finaliza la ejecución del programa.</li>
 </ul>
 
+<h2>Consulta a la API Exchange Rate API</h2>
+
+<p>El conversor utiliza la <strong>API de Exchange Rate API</strong> para obtener las tasas de cambio actualizadas en tiempo real. Esto garantiza que las conversiones de moneda sean precisas y reflejen los valores actuales del mercado.</p>
+
+<h3>Características de la API:</h3>
+<ul>
+  <li>Proporciona tasas de cambio actualizadas para una amplia variedad de monedas.</li>
+  <li>Respuesta rápida y confiable.</li>
+  <li>Fácil integración con aplicaciones desarrolladas en Java.</li>
+</ul>
+
+<h3>Cómo funciona:</h3>
+<ol>
+  <li>Al seleccionar una opción de conversión, el programa realiza una solicitud a la API de Exchange Rate API para obtener la tasa de cambio correspondiente.</li>
+  <li>El programa utiliza esa tasa para convertir la cantidad ingresada por el usuario a la moneda seleccionada.</li>
+  <li>El resultado se muestra en la consola, utilizando la tasa de cambio más actualizada.</li>
+</ol>
+
+
 <h2>Instalación y Uso en Local</h2>
 
 <p>Para usar este conversor de monedas en tu computadora local, sigue estos pasos:</p>
