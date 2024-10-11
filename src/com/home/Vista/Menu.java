@@ -16,7 +16,7 @@ public class Menu {
                 6) Conversor de Peso Colombiano ==> Dolar.""");
         System.out.println(ROJO + "7) Salir" + RESET);
         System.out.println("########################################################################################################");
-        System.out.println(VERDE + "¿Que Opcion Desea Elegir?" + RESET);
+        System.out.println(VERDE + "Elige una opcion: " + RESET);
     }
     public void mensajeCantidad(){
         System.out.println(VERDE + "Ingrese el valor que desea convertir" + RESET);

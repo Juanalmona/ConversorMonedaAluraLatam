@@ -10,7 +10,7 @@ public class Convierte {
     private final String AZUL = "\033[0;34m"; // Texto azul
     private final String RESET = "\033[0m";  // Restablece los colores
     private final String ROJO = "\033[0;31m"; // Texto rojo
-    Scanner lectura = new Scanner(System.in);
+    Scanner consola = new Scanner(System.in);
     public float ConvierteMoneda(int valor){
 
         switch (valor){
@@ -30,13 +30,13 @@ public class Convierte {
                 System.out.println("PROGRAMA FINALIZADO, GRACIAS POR UTILIZAR NUESTRO SERVICIO...");
                 return 7;
             default:
-                System.out.println(ROJO + "OPCION NO VALIDA. POR FAVOR, INGRESE UN NUMERO ENTRE  1 Y 7." + RESET);
+                System.out.println(ROJO + "OPCION NO VALIDA. " + valor + RESET);
                 return 0;
         }
     }
     private float convertir(String tipoMonedaOrigen ,String tipoMonedaDestino){
         menu.mensajeCantidad();
-        cantidad = lectura.nextInt();
+        cantidad = consola.nextInt();
         this.tipoMonedaOrigen = tipoMonedaOrigen;
         this.tipoMonedaDestino = tipoMonedaDestino;
         var moneda = consulta.buscaMonedas(this.tipoMonedaOrigen, this.tipoMonedaDestino);
