@@ -16,9 +16,13 @@ public class Controlador {
             var menu = new Menu();
             while (true){
                 menu.Mensaje();
-
-                var valorFinal = convierte.ConvierteMoneda(consola.nextInt());
-                Thread.sleep(5000);
+                var valorFinal = convierte.ConvierteMoneda(consola.nextLine());
+                if (valorFinal != 0 & valorFinal != 7 ){
+                    Thread.sleep(5000);
+                }
+                if (valorFinal == 0){
+                    Thread.sleep(1000);
+                }
                 if (valorFinal == 7){
                     break;
                 }
@@ -30,3 +34,4 @@ public class Controlador {
         }
     }
 }
+

@@ -19,6 +19,6 @@ public class Menu {
         System.out.println(VERDE + "Elige una opcion: " + RESET);
     }
     public void mensajeCantidad(){
-        System.out.println(VERDE + "Ingrese el valor que desea convertir" + RESET);
+        System.out.println(VERDE + "Ingrese el Importe que desea convertir" + RESET);
     }
 }
