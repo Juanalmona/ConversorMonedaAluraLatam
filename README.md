@@ -97,10 +97,10 @@
 <ul>
   <li>Abre una terminal o línea de comandos y navega a la carpeta donde descomprimiste el proyecto.</li>
   <li>Compila el proyecto ejecutando el siguiente comando:
-    <pre>javac Main.java</pre>
+    <pre>javac Controlador.java</pre>
   </li>
   <li>Una vez compilado, ejecuta el programa con el siguiente comando:
-    <pre>java Main</pre>
+    <pre>java Controlador</pre>
   </li>
 </ul>
 
