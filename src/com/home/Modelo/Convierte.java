@@ -50,8 +50,8 @@ public class Convierte {
                     break;  // Sale del bucle si se ingresa un número válido
                 }
             } catch (InputMismatchException e) {
-                System.out.println(ROJO + "Error: Debes ingresar un Importe entero valido." + RESET);
-                consola.nextLine();  // Limpiar el buffer de entrada para evitar un bucle infinito
+                System.out.println(ROJO + "Error: Debes ingresar un Importe entero positivo valido desde  0 hasta 2147483647 sin puntos ni coma." + RESET);
+                consola.nextLine();  // Limpia el buffer de entrada para evitar un bucle infinito
             }
         }
 
