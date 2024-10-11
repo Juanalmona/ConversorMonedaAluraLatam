@@ -18,7 +18,7 @@ public class Controlador {
                 menu.Mensaje();
                 var valorFinal = convierte.ConvierteMoneda(consola.nextLine());
                 if (valorFinal != 0 & valorFinal != 7 ){
-                    Thread.sleep(5000);
+                    Thread.sleep(3000);
                 }
                 if (valorFinal == 0){
                     Thread.sleep(1000);
